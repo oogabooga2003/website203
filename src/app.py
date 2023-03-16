@@ -8,7 +8,7 @@ app = Flask(__name__, template_folder=template_folder, static_folder=static_fold
 
 @app.route('/')
 def warning():
-    return 'How did you get <a href="/fun_facts">here??</a>'
+    return 'How did you get <a href="/fun_fact">here??</a>'
 
 
 @app.route('/fun_fact')
@@ -19,6 +19,7 @@ def fun_fact():
 @app.route('/home')
 def home():
     return render_template('home.html')
+
 
 
 app.run(host="0.0.0.0", port=5000, debug=True)
