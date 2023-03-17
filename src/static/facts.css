@@ -1,4 +1,10 @@
 body{
     margin:8rem 8rem;
     background-image: url("https://ichef.bbci.co.uk/news/1024/branded_news/12110/production/_125700047_gettyimages-1405123722.jpg");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+}
+p{
+    color: darkslategrey;
 }

@@ -8,7 +8,11 @@ app = Flask(__name__, template_folder=template_folder, static_folder=static_fold
 
 @app.route('/')
 def warning():
-    return 'How did you get <a href="/fun_fact">here??</a>'
+    return '<a href="/home">hello there</a>'
+
+@app.route('/snake')
+def snake():
+    return render_template('snake.html')
 
 
 @app.route('/fun_fact')
@@ -19,6 +23,10 @@ def fun_fact():
 @app.route('/home')
 def home():
     return render_template('home.html')
+
+@app.route('/game')
+def game():
+    return render_template('game.html')
 
 
 

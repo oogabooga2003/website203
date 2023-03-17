@@ -1,0 +1,12 @@
+head{
+    margin: 2em 2em;
+}
+
+body{
+    margin: 2rem 2rem;
+    background-image: url("https://wallpaperaccess.com/full/203514.jpg");
+    background-size: cover;
+    border: transparent;
+    color: grey;
+    background-repeat: no-repeat;
+}
